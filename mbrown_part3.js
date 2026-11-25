@@ -25,3 +25,10 @@ console.log("11th character:", myString.charAt(10));
 console.log("slice:", myString.slice(5, 9));
 // Substrings from position 6-9
 console.log("substring:", anotherString.substring(6, 9));
+
+//B3.5: Upper and lower case
+
+//display name in upper case
+console.log(`myName in upper case: ${myName.toUpperCase()}`);
+//display name in lower case
+console.log(`myName in lower case: ${myName.toLowerCase()}`);
