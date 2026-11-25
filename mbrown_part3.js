@@ -18,3 +18,10 @@ console.log("Length of myString:", myString.length);
 console.log("First character:", myString.charAt(0));
 // 0 is beginning so 11=10th position
 console.log("11th character:", myString.charAt(10));
+
+//B3.4: Slice and Substrings
+
+// Slices position 5-9
+console.log("slice:", myString.slice(5, 9));
+// Substrings from position 6-9
+console.log("substring:", anotherString.substring(6, 9));
