@@ -32,3 +32,14 @@ console.log("substring:", anotherString.substring(6, 9));
 console.log(`myName in upper case: ${myName.toUpperCase()}`);
 //display name in lower case
 console.log(`myName in lower case: ${myName.toLowerCase()}`);
+
+//B3.6: Concat, trim, replace and split 
+
+// Using concat method to connect strings
+console.log(`concat: ${hello.concat(" ", myName)}`);
+// Using trim method to remove spaces
+console.log(`trim: "${anotherString.trim()}"`);
+// Using replace method to replace with a "  "
+console.log(`replace: ${myString.replace("is a", " ")}`);
+// Using split method to create an array of words
+console.log("split:", myString.split(" "));
