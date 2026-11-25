@@ -17,4 +17,3 @@ try {
 } catch (error) {
   console.log("Could not save the file: " + error.message);
 }
-
