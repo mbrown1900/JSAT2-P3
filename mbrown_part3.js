@@ -11,3 +11,10 @@ console.log("myString:", myString);
 console.log("anotherString:", anotherString);
 console.log("hello:", hello);
 console.log("myName:", myName);
+
+// B3.3: String Length
+
+console.log("Length of myString:", myString.length);
+console.log("First character:", myString.charAt(0));
+// 0 is beginning so 11=10th position
+console.log("11th character:", myString.charAt(10));
